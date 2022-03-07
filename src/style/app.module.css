@@ -15,6 +15,7 @@
     align-items: center;
     justify-items: center;
     padding: 0.5rem;
+    gap: 10rem;
     margin-top: 7rem;
 }
 
@@ -25,6 +26,7 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    margin-left: 5rem;
     
 }
 
@@ -43,36 +45,36 @@
     color: #fff;
     font-weight:400;
 }
-.icons{
-    display: flex;
-    gap: 2rem;
-    margin-top: 2.5rem;
-}
-.icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding:0.5rem;
-    transition: all 0.7s ease;
-    color: #35FF69;
-}
 
-.icon:hover {
-    cursor: pointer;
-}
 
 
 /* Media Queries */
-@media screen and (max-width:765px) {
-    .app{
-        background-image: url('../assets/wave-haikei-bottom.svg');
+@media screen and (max-width:1050px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap:0;
+        
+       
     }
+    .content{
+        margin-left: 0;
+    }
+}
 
+
+
+
+@media screen and (max-width:765px) {
     .container{
         display: flex;
         flex-direction: column;
+        gap:0;
         margin-top: 0;
        
+    }
+    .content{
+        margin-left: 0;
     }
 
     .icons{

@@ -11,6 +11,7 @@
 **Cadastro Inicio:**
 ![](/src/assets/Cadastro%20Inicio.png)
 
+
 **Cadastro Responsivo:**
 ![](/src/assets/CadastroResponsivo.png)
 

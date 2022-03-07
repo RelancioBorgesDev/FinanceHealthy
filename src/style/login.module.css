@@ -1,0 +1,76 @@
+.container_login{
+    position: relative;
+    height: 100vh;
+    background-image: url('../assets/wave-haikei-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Container =  Form + Content */
+.container_conteudo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    padding: 0.5rem;
+    gap: 10rem;
+}
+
+/* Content */
+.content{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+    
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    color: #35FF69;
+}
+
+.content h2 strong {
+    color: #fff;
+}
+
+.content p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight:400;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:1050px) {
+    .container_conteudo{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .content{
+        margin-left: 0;
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container_conteudo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .content{
+        margin-left: 0;
+    }
+}

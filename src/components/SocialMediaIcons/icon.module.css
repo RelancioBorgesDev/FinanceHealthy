@@ -1,0 +1,26 @@
+.icons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding:0.5rem;
+    transition: all 0.7s ease;
+    color: #35FF69;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width:765px) {
+    .icons{
+        display: none;
+    }
+}
