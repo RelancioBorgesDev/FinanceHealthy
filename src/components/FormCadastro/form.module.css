@@ -14,7 +14,7 @@
 
 .input{
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.8rem;
     font-size: 1.2rem;
     border-radius: 0.5rem;
     outline: none;
@@ -36,6 +36,7 @@
 
 @media screen and (max-width:765px) {
     .app_form{
+        width: 100%;
         max-width: 100%;
         margin-left: 0;
     }
