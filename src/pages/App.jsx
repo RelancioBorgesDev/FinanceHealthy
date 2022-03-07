@@ -15,7 +15,7 @@ function App() {
       <ButtonSwitchPage/>
     <div className={app.container}>
         <section className={app.content}>
-            <h2>Finance<strong>Bank</strong>.</h2>
+            <h2>Finance<strong>Healthy</strong>.</h2>
             <p>Cadastre se para aproveitar todos os conteúdos do nosso website financeiro! </p>
             <div className={app.icons}>
               <AiOutlineInstagram className={app.icon}/>

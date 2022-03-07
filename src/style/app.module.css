@@ -8,6 +8,7 @@
 
 }
 
+/* Content */
 .container{
     position: absolute;
     display: flex;
@@ -17,7 +18,6 @@
     margin-top: 10rem;
 }
 
-/* Content */
 .content{
     max-width: 100%;
     display: flex;
@@ -61,6 +61,8 @@
     cursor: pointer;
 }
 
+
+/* Media Queries */
 @media screen and (max-width:765px) {
     .app{
         background-image: url('../assets/wave-haikei-bottom.svg');
