@@ -6,6 +6,7 @@
 ## Ferramentas: 
 - React-Icons
 - React Hook Form
+- Yup
 - Toastify
 
 # Linha do Tempo
@@ -35,7 +36,8 @@
 ![](/src/assets/Valid2.png)
 
 
-
+## 13/04/2022
+**Método Post adicionado para Cadastro**
 
 
 

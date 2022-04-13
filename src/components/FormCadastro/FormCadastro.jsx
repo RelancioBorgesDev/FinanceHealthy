@@ -4,6 +4,7 @@ import form from './form.module.css'
 import { useForm } from 'react-hook-form'
 import * as yup from 'yup'
 import { yupResolver } from "@hookform/resolvers/yup"
+import useCadastro from '../../hooks/useCadastro'
 
 
 const validacao = yup.object().shape({
@@ -16,14 +17,11 @@ export default function FormCadastro() {
   const {register, handleSubmit, formState: {errors}} = useForm({
     resolver: yupResolver(validacao)
   })
+  
+  const criarUsuario = useCadastro();
 
   let enviarParaUsuario = async (data) => {
-    const dadosCadastro = {
-      nome: data.nome,
-      email: data.email,
-      senha: data.senha,
-    }
-    console.log(dadosCadastro)
+    criarUsuario(data)
   }
   
   return (
